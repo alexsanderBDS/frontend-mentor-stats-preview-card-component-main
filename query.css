@@ -1,0 +1,33 @@
+@media (max-width: 37.5em) {
+  .container {
+    margin: auto;
+  }
+
+  .card {
+    margin: 4rem 2rem;
+    display: grid;
+    grid-template-rows: auto auto;
+
+    justify-content: center;
+    align-items: center;
+  }
+
+  .content-wrapper {
+    grid-row: 2;
+    padding: 4rem;
+  }
+
+  .card-content {
+    text-align: center;
+  }
+
+  .card-info {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .card-info-item {
+    text-align: center;
+  }
+}
